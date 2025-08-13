@@ -1,0 +1,93 @@
+/* solution section */
+.solution_section{
+    padding: 50px 0px 0px 0px;
+}
+.solution_item_wrap .img_wrap {
+    position: relative;
+    padding-top: 60%;
+}
+.solution_item_wrap .img_wrap img {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.solution_title {
+    font-family: 'myriad pro' !important;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+    text-align: left;
+}
+.solution_item_wrap a {
+    text-decoration: none;
+}
+.solution_section  ul.slick-dots button {
+    border-color: var(--gray);
+}
+
+.solution_section  .slick-dots{
+    left: 0px;
+    width: fit-content;
+    bottom:0px;
+    justify-content: start;
+    right:unset;
+}
+.solution_slider {
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.solution_section  ul.slick-dots  .slick-active button ,
+.solution_section  ul.slick-dots button:hover {
+background-color: var(--gray);
+}
+.right_text {
+    text-align: right;
+  
+}
+.right_text.solution_btn a {
+    position: relative;
+    top: -45px;
+}
+.slick-arrow {
+    position: absolute;
+    top: calc(50% - 50px);
+    transform: translateY(-50%);
+}
+.slick-arrow {
+    position: absolute;
+    top: calc(50% - 50px);
+    z-index: 9;
+    transform: translateY(-50%);
+    background-color: #c13d3d00;
+    border: transparent;
+    width: 25px;
+    cursor: pointer;
+    height: 30px;
+    font-size: 0px;
+    background-image: url('http://testing.local/wp-content/uploads/2025/08/slick_arrow.svg');
+}
+button.slick-next.slick-arrow {
+    right: -10px;
+    transform: translateY(-50%) rotate(185deg);
+}
+button.slick-prev.slick-arrow {
+    left: -10px;
+}
+/* level section */
+.level_section{
+    display: flex;
+    align-items: center;
+    min-height: 55vh;
+    padding: 70px 0px;
+    background-image: url('http://testing.local/wp-content/uploads/2025/08/level_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+}

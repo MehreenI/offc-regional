@@ -1,0 +1,43 @@
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+.info-panel {
+    padding: 20px;
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #374151;
+}
+
+.address-icon {
+    width: 20px;
+    height: 20px;
+    fill: #1e40af;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-size: 18px;
+    color: #6b7280;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-size: 18px;
+    color: #dc2626;
+    background: #fef2f2;
+}

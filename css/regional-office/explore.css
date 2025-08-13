@@ -1,0 +1,41 @@
+/* explore sectopn */
+.exlore_section {
+    padding: 50px 0px;
+}
+.explore_img{
+    width: 100%;
+}
+ul.icon_list li {
+    font-family: 'myriad pro' !important;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 14px;
+    list-style: none;
+    display: flex;
+text-align: left;
+    }
+    ul.icon_list i {
+    margin-top: 7px;
+
+}
+
+ul.icon_list {
+    padding: 0px;
+    margin-bottom: 40px;
+    display: vl;
+}
+ul.icon_list i {
+    color: #727DA3;
+    margin-right: 10px;
+}
+.col-md-8{
+    position: relative;
+}
+.explore_img {
+    position: absolute;
+    top: -21%;
+    right:0px;
+    width:90%;
+}
